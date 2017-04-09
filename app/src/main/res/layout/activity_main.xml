@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="geoquiz"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:padding="20dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        >
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Select a continent:"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+
+        <!-- scoreview for next phase
+        <TextView
+
+            android:layout_height="match_parent"
+            android:layout_width="60dp"
+            android:text="current \nscores"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp" />
+        -->
+    </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Africa"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="@color/boxback"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:text="Africa"
+                android:onClick="openAfricaPage"/>
+
+            <!-- scoreview for next phase
+            <TextView
+                android:id="@+id/mainScoreAfrica"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="0"
+                android:textStyle="bold"/>
+            -->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="@color/boxback"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:text="America"
+                android:onClick="openAmericaPage"/>
+
+            <!-- scoreview for next phase
+            <TextView
+                android:id="@+id/mainScoreAme"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:text="0" />
+                -->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="@color/boxback"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:text="Europe"
+                android:onClick="openEuropePage"/>
+
+            <!-- scoreview for next phase
+            <TextView
+                android:id="@+id/mainScoreEu"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="0"
+                android:textStyle="bold"/>
+                -->
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>
