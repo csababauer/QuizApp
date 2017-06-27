@@ -125,7 +125,7 @@ public class AfricaActivity extends AppCompatActivity {
 
         Intent intAf = new Intent(this, MainActivity.class);
         //and take score into main page
-        //intAf.putExtra("intAf", scoreAf);
+        intAf.putExtra("intAf", scoreAf);
         startActivity(intAf);
 
     }

@@ -17,7 +17,7 @@ public class AmericaActivity extends AppCompatActivity {
 
     public int scoreAm = 0;
     public boolean flagAm = true;
-
+/*
     public RadioGroup rg1;
     public RadioGroup rg2;
     public RadioGroup rg3;
@@ -30,7 +30,7 @@ public class AmericaActivity extends AppCompatActivity {
     public RadioButton rb7;
     public RadioButton rb8;
     public RadioButton rb9;
-
+*/
     public int rb1State;
     public int rb2State;
     public int rb3State;
@@ -99,8 +99,7 @@ public class AmericaActivity extends AppCompatActivity {
     public void backToMain(View view) {
 
         Intent intAm = new Intent(this, MainActivity.class);
-        //and take score into main page
-        //intAm.putExtra("intAm", scoreAm);
+        intAm.putExtra("intAm", scoreAm);
         startActivity(intAm);
     }
 
